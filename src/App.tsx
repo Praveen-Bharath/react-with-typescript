@@ -10,7 +10,7 @@ export interface IState{
     url:string;
     note?:string;
   }[]
-}
+} 
 
 function App() {
    const [people,setPeople]= useState<IState["people"]>([
